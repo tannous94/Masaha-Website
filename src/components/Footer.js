@@ -25,18 +25,18 @@ function Footer() {
           <div className='footer-link-items'>
             <h2>{t('navigation')}</h2>
             <Link to='/'>{t('home')}</Link>
-            <Link to='/'>{t('about')}</Link>
+            <Link to='/about'>{t('about')}</Link>
             <Link to='/'>{t('careers')}</Link>
-            <Link to='/'>{t('ourservices')}</Link>
-            <Link to='/'>{t('contactus')}</Link>
+            <Link to='/services'>{t('ourservices')}</Link>
+            <Link to='/contactus'>{t('contactus')}</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>{t('socials')}</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>LinkedIn</Link>
+            <Link to='#'>Instagram</Link>
+            <Link to='#'>Facebook</Link>
+            <Link to='#'>LinkedIn</Link>
           </div>
           <div className='footer-link-items'>
             <h2>{t('details')}</h2>
