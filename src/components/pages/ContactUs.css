@@ -1,0 +1,78 @@
+.app-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .form-section {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .map-section {
+    flex: 1;
+    height: 80%; /* Adjust height percentage as needed */
+    margin: 20px; /* Add margin to create space around the map */
+    box-sizing: border-box;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    font-size: 18px;
+    margin: 0 auto;
+    direction: rtl; /* Add this line to set the text direction to RTL */
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: right; /* Align label text to the right */
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    text-align: right; /* Align input text to the right */
+  }
+  
+  .contact-form textarea {
+    resize: vertical;
+    height: 150px;
+    min-height: 150px;
+    max-height: 350px;
+  }
+  
+  .contact-form .error {
+    color: red;
+    font-size: 0.875em;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #242424;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Add this line to make the corners rounded */
+  }
+  
+  button:hover {
+    background-color: #2f2f30;
+  }
+
+  h2 {
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed #242424;
+    color: #242424;
+    height: 0;
+    margin: 20px 0;
+  }
